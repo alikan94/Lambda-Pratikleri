@@ -26,9 +26,9 @@ buda lines altinda kirmizi uyari veriyor uzerine tiklayinca kendiliginden oluyor
 public class C7_DosyaOkuma {
     public static void main(String[] args) throws IOException {
 
-        Stream<String> satir= Files.lines(Path.of("src/lambda_practice/C7_TextFile"));
+        Stream<String> satir= Files.lines(Path.of("src/lambda_practice/C7_TextFile")); //artik stream e donustu methodlari kullanabiliriz
         //NOT:  PATH cift tirnak icine alinmali
-        //artik stream e donustu methodlari kullanabiliriz
+
 
 
     // S1: Yazdiralim
