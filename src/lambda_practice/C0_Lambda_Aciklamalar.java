@@ -55,7 +55,7 @@ public class C0_Lambda_Aciklamalar {
     Map den farkı her iterasyonu tek tek değerlendirip sonucu yansıtmaz bunun yerine tüm koleksiyonu
     değerlendirerek sonucu yansıtmasıdır. Match operasyonunun 3 çeşit kullanımı bulunmaktadır;
 
-        AnyMath: Vereceğimiz şarta bağlı olarak Stream içerisinde gezinir ve
+        AnyMatch: Vereceğimiz şarta bağlı olarak Stream içerisinde gezinir ve
         herhangi bir elemanla eşleşme durumunda true dönecektir.
 
 
@@ -106,14 +106,17 @@ public class C0_Lambda_Aciklamalar {
     Eğer bir Optional içerisinde sadece veri varsa (null değilse) bir işin yapılması isteniyorsa #ifPresent metodu kullanılabilir.
 
 
-    Comparator => bir Class’tır. Compar karşılaştırmak demektir. Bazı nesneler koleksiyonuna toplam sıralama uygulayan bir karşılaştırma işlevi.
-    Karşılaştırıcılar, sıralama düzeni üzerinde hassas kontrol sağlamak için bir sıralama yöntemine (Collections.sort veya Arrays.sort gibi) aktarılabilir.
-    Karşılaştırıcılar, belirli veri yapılarının (sıralı kümeler veya sıralı haritalar gibi) sırasını kontrol etmek veya doğal sıralaması olmayan
+    Comparator => bir Class’tır. Compare karşılaştırmak demektir. Bazı nesneler koleksiyonuna toplam
+    sıralama uygulayan bir karşılaştırma işlevi. Karşılaştırıcılar, sıralama düzeni üzerinde hassas
+    kontrol sağlamak için bir sıralama yöntemine (Collections.sort veya Arrays.sort gibi) aktarılabilir.
+    Karşılaştırıcılar, belirli veri yapılarının (sıralı kümeler veya sıralı haritalar gibi) sırasını
+    kontrol etmek veya doğal sıralaması olmayan
     nesnelerin koleksiyonları için bir sıralama sağlamak için de kullanılabilir.
 
     reverseOrder() => Comparator Class’ının bir methodudur. Doğal sıralamanın tersini (büyükten küçüğe) uygulayan bir Comparator (karşılaştırıcı) döndürür.
     comparing() => karşılaştırma demektir.
-    reversed() => Bu karşılaştırıcının (comparator) ters sıralanmasını uygulayan bir karşılaştırıcı (comparator) döndürür.
+    reversed() => Bu karşılaştırıcının (comparator) ters sıralanmasını uygulayan bir
+    karşılaştırıcı (comparator) döndürür.
 
 
     skip(1) => atlama demek. Akışın ilk n elemanını attıktan sonra bu akışın kalan elemanlarından oluşan bir akış döndürür.
