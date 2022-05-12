@@ -2,6 +2,8 @@ package lambda_practice;
 
 public class C0_Lambda_Aciklamalar {
          /*
+
+         ali kan
      ForEach:
      Stream içindeki veriyi tek tek tüketmekiçin oluşturulmuş bir yapıdır.
      **Terminal işlemi olduğundan dolayı stream artık tüketilmiş olarak kabul edilir ve
